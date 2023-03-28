@@ -8,16 +8,16 @@ setlocale(LC_ALL,"portuguese");
 
 float raio, altura, volume;
 
-printf ("Bem vindo ao calculador de volume de latas de 髄eo!\n");	
-printf ("Digite o raio da sua lata de 髄eo:");
+printf ("Bem vindo ao calculador de volume de latas de 贸leo!\n");	
+printf ("Digite o raio da sua lata de 贸leo:");
 scanf ("%f", &raio);
 
-printf ("Digite a alutra da sua lata de 髄eo:");
+printf ("Digite a alutra da sua lata de 贸leo:");
 scanf ("%f", &altura);
 
 volume = 3.14 * pow(raio,2) * altura;
 
-printf ("De acordo com meus 髄eos sua lata de 髄eo mede: ");
+printf ("De acordo com meus 贸leos sua lata de 贸leo mede: ");
 printf ("%.2f", volume);
 printf (" cm (se for metros procure ajuda imediatamente)");
 
