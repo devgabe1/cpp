@@ -6,19 +6,19 @@ float litros, tempo_de_viagem, distancia, velocidade;
 
 setlocale(LC_ALL,"portuguese");
 
-printf ("Bem vindo!\nVamos calcular quantos litros de gasolina vocÍ gastar· em sua viagem.\n");
+printf ("Bem vindo!\nVamos calcular quantos litros de gasolina voc√™ gastar√° em sua viagem.\n");
 printf ("Insira o tempo gasto em sua viagem:");
 scanf ("%f", &tempo_de_viagem);
 
-printf ("Insira a sua velociade mÈdia durante a viagem:");
+printf ("Insira a sua velociade m√©dia durante a viagem:");
 scanf ("%f", &velocidade);
 
 distancia = (tempo_de_viagem * velocidade);
 
 litros = (distancia/12);
 
-printf ("\nVelocidade mÈdia: %.f" "km/h", velocidade);
+printf ("\nVelocidade m√©dia: %.f" "km/h", velocidade);
 printf ("\nTempo gasto: %.f" "h", tempo_de_viagem);
-printf ("\nDist‚ncia percorrida: %.f" "km/h", distancia);
-printf ("\nLitros necess·rios: %.f" "L", litros );
+printf ("\nDist√¢ncia percorrida: %.f" "km/h", distancia);
+printf ("\nLitros necess√°rios: %.f" "L", litros );
 }
