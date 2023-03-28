@@ -8,7 +8,7 @@ float valor, taxa, tempo;
 
 setlocale(LC_ALL,"portuguese");
 
-printf ("Bem vindo ao calculador de prestações em atraso!");
+printf ("Bem vindo ao calculador de prestaÃ§Ãµes em atraso!");
 printf ("\n\nInsira o valor original da fatura: ");
 scanf ("%f", &valor);
 
@@ -18,7 +18,7 @@ scanf ("%f", &taxa);
 printf ("\nA fatura venceu faz quantos dias? ");
 scanf ("%f", &tempo);
 
-printf ("\nO valor da prestação é R$:");
+printf ("\nO valor da prestaÃ§Ã£o Ã© R$:");
 printf ("%.2f",valor + ((taxa/100)* valor* tempo));
 
 }
