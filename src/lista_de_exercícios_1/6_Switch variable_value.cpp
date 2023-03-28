@@ -9,17 +9,17 @@ setlocale (LC_ALL, "portuguese");
 
 printf ("Switch variable value\n\n");
 
-printf ("Insira o valor da Variável A:");
+printf ("Insira o valor da VariÃ¡vel A:");
 scanf ("%f", &variavel_a);
 
-printf ("Insira o valor da Variável B:");
+printf ("Insira o valor da VariÃ¡vel B:");
 scanf ("%f", &variavel_b);
 
 variavel_c = variavel_a;
 variavel_a = variavel_b;
 variavel_b = variavel_c;
 
-printf ("\n\nVariável A:%.f", variavel_a);
-printf ("\nVariável B:%.f", variavel_b);
+printf ("\n\nVariÃ¡vel A:%.f", variavel_a);
+printf ("\nVariÃ¡vel B:%.f", variavel_b);
 
 }
