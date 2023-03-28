@@ -1,9 +1,7 @@
 # Meus estudos em C++  
 
-## [Repositório sobre cpp](https://github.com/devgabe1/cpp)
-
 ## Conceitos Básicos  
-## __Bibliotecas:__
+### __Bibliotecas:__
 Todos os programas em linguagem C usam funções das bibliotecas padrão da linguagem, segue uma lista das bibliotecas mais comuns:  
 
  - ## **stdlib.h**
