@@ -56,7 +56,7 @@ printf ("\nPercentual de votos para o candedato %s: %.2f%%", candidato_3, votos_
 
 printf ("\n\nPercentual de votos nulos: %.2f%%", votos_nulos / eleitores * 100);
 
-printf ("\n\nPercentual de votos em branco: %.2f%%", votos_brancos / eleitores * 100);
+printf ("\n\nPercentual de votos em branco: %.2f%%\n", votos_brancos / eleitores * 100);
 
 
 if (votos_c1 > votos_c2 && votos_c1 > votos_c3){
