@@ -8,38 +8,38 @@ float anos, meses, dias, ano_em_dias, meses_em_dias, total_em_dias;
 
 printf ("Calculador de tempo de Vida\n\n");
 
-printf ("\nInsira quantos anos de vida o usuário possui:");
+printf ("\nInsira quantos anos de vida o usuÃ¡rio possui:");
 scanf ("%f", &anos);
 
-printf ("\nInsira quantos meses de vida o usuário possui: ");
+printf ("\nInsira quantos meses de vida o usuÃ¡rio possui: ");
 scanf ("%f", &meses);
 
 while ( meses > 12){
-printf ("\nGentileza inserir um valor válido.\n");
-printf ("\nInsira quantos meses de vida o usuário possui: ");
+printf ("\nGentileza inserir um valor vÃ¡lido.\n");
+printf ("\nInsira quantos meses de vida o usuÃ¡rio possui: ");
 scanf ("%f", &meses);
 }
 
 
-printf ("\nInsira quantos dias de vida o usuário possui: ");
+printf ("\nInsira quantos dias de vida o usuÃ¡rio possui: ");
 scanf ("%f", &dias);
 
 while (dias > 31){
-printf ("\nGentileza inserir um valor válido.\n");
-printf ("\nInsira quantos dias de vida o usuário possui: ");
+printf ("\nGentileza inserir um valor vÃ¡lido.\n");
+printf ("\nInsira quantos dias de vida o usuÃ¡rio possui: ");
 scanf ("%f", &dias);
 }
 
-//partindo do princípio que mês tem 30 dias
+//partindo do princÃ­pio que mÃªs tem 30 dias
 ano_em_dias = (anos * 12) * 30;
 meses_em_dias = meses * 30;
 total_em_dias = ano_em_dias + meses_em_dias + dias;
 
-printf ("\n\nIdade do usuário em Horas %.fh", total_em_dias * 24);
+printf ("\n\nIdade do usuÃ¡rio em Horas %.f h", total_em_dias * 24);
 
-printf ("\nIdade do usuário em Minutos %.fmin", (total_em_dias * 24) * 60);
+printf ("\n\nIdade do usuÃ¡rio em Minutos %.f min", (total_em_dias * 24) * 60);
 
-printf ("\nIdade do usuário em segundos %.fseg", ((total_em_dias * 24) * 60) *60);
+printf ("\n\nIdade do usuÃ¡rio em segundos %.f seg", ((total_em_dias * 24) * 60) *60);
 
 	
 	
