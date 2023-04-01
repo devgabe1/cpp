@@ -28,7 +28,7 @@ Todos os programas em linguagem C usam funções das bibliotecas padrão da ling
 
           setlocale(LC_ALL,"portuguese");
           setlocale(LC_NUMERIC,"portuguese"); <br>
-##   Site com todas as biblíotecas e suas funções:  [Biblíotecas](https://www.tutorialspoint.com/c_standard_library/index.htm)
+##   Site com todas as bibliotecas e suas funções:  [Bibliotecas](https://www.tutorialspoint.com/c_standard_library/index.htm)
 
 ---
 <br>
