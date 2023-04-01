@@ -1,5 +1,9 @@
 # Meus estudos em C++  
 
+## Sobre mim
+Me chamo Gabriel Schultz, estudo Análise e Desenvolvimento de Sistemas na Uniadrade em Curitiba.  
+Nunca tinha tido nenhum contato com programação com código, portanto C++ é minha primeira linguagem de programação, nesse repositório irei compartilhar todo meu aprendizado sobre a linguagem, desde listas de atividades do meu curso até minhas anotações sobre a linguagem e meu aprendizado.<br><br>
+
 ## Conceitos Básicos  
 ### __Bibliotecas:__
 Todos os programas em linguagem C usam funções das bibliotecas padrão da linguagem, segue uma lista das bibliotecas mais comuns:  
@@ -23,4 +27,8 @@ Todos os programas em linguagem C usam funções das bibliotecas padrão da ling
     - Esta biblicoteca é usada para manipular configurações de localização, como idioma, formatação de números, moeda e data. Segue função da biblioteca locale para aceitar a lingua portuguesa com acentos:
 
           setlocale(LC_ALL,"portuguese");
+          setlocale(LC_NUMERIC,"portuguese"); <br>
+##   Site com todas as biblíotecas e suas funções:  [Biblíotecas](https://www.tutorialspoint.com/c_standard_library/index.htm)
+
 ---
+<br>
