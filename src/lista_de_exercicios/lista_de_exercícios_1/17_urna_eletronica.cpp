@@ -10,16 +10,16 @@ char candidato_1[50], candidato_2[50], candidato_3[50];
 printf ("Bem vinda a Urna eletrônica!\n\n\n");
 
 printf ("Insira o nome do Candidato 1: ");
-gets (candidato_1);
+fgets (candidato_1, 50, stdin);
 printf ("Bem vindo as eleições %s!\n\n", candidato_1);
 
 
 printf ("Insira o nome do Candidato 2:");
-gets (candidato_2);
+fgets (candidato_2, 50, stdin);
 printf ("Bem vindo as eleições %s!\n\n", candidato_2);
 
 printf ("Insira o nome do Candidato 3:");
-gets (candidato_3);
+fgets (candidato_3, 50, stdin);
 printf("Bem vindo as eleições %s!\n\n\n", candidato_3);
 
 

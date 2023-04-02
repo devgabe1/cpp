@@ -1,5 +1,5 @@
 #include <locale.h>
-#include <Math.h>
+#include <stdio.h>
 
 int main(){
 	
