@@ -75,7 +75,3 @@ printf ("\n\nInfelizmente sua nota não atingiu a média, por gentileza informar
 	
 	
 }
-
-	
-	
-
