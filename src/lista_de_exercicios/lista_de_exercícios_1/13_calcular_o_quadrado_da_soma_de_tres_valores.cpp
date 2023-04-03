@@ -6,7 +6,7 @@ setlocale (LC_ALL, "portuguese");
 
 float valor_a, valor_b, valor_c, soma;
 
-printf ("Calcular o quadrado da soma de três valores\n\n\n");
+printf ("Calcular o quadrado da soma de trÃªs valores\n\n\n");
 
 printf ("Insira o valor A: ");
 scanf ("%f", &valor_a);
@@ -19,7 +19,7 @@ scanf ("%f", &valor_c);
 
 soma = valor_a + valor_b + valor_c;
 
-printf ("\n\nO quadrado da soma dos três valores é igual a: %.2f", pow(soma, 2));
+printf ("\n\nO quadrado da soma dos trÃªs valores Ã© igual a: %.2f", pow(soma, 2));
 	
 	
 }

@@ -6,12 +6,12 @@ setlocale(LC_ALL, "portuguese");
 
 float raio;
 
-printf ("Calcular a área de uma circunferência\n\n");
+printf ("Calcular a Ã¡rea de uma circunferÃªncia\n\n");
 
-printf ("Insira o Raio da circunferência: ");
+printf ("Insira o Raio da circunferÃªncia: ");
 scanf ("%f", &raio);
 
-printf ("\nA área da circunferência é igual a: %.2f", 3.14159 * pow(raio,2));
+printf ("\nA Ã¡rea da circunferÃªncia Ã© igual a: %.2f", 3.14159 * pow(raio,2));
 
 	
 }

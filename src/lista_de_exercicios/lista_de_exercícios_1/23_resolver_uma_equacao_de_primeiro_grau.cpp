@@ -6,7 +6,7 @@ setlocale (LC_ALL, "portuguese");
 
 float a, b, x;
 
-printf ("Resolver uma equaÁ„o de primeiro grau.\n\n");
+printf ("Resolver uma equa√ß√£o de primeiro grau.\n\n");
 
 printf ("Insira o valor do coeficiente angular: ");
 scanf ("%f", &a);
@@ -17,11 +17,11 @@ scanf ("%f", &b);
 
 if (a == 0){
 	if (b == 0) {
-		printf("Qualquer valor para x È a soluÁ„o."); }
-	 else printf ("N„o h· soluÁ„o para a equaÁ„o"); }
+		printf("Qualquer valor para x √© a solu√ß√£o."); }
+	 else printf ("N√£o h√° solu√ß√£o para a equa√ß√£o"); }
 	 else {
 	 x = -b / a;
-	 printf ("O valor de x È igual a = %.2f", x); }
+	 printf ("O valor de x √© igual a = %.2f", x); }
 	 
 }
 	

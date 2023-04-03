@@ -6,9 +6,9 @@ setlocale(LC_ALL, "portuguese");
 
 float km;
 
-printf ("Converter quilômetros para metros\n\n");
+printf ("Converter quilÃ³metros para metros\n\n");
 
-printf ("Insira o valor em quilômetros: ");
+printf ("Insira o valor em quilÃ³metros: ");
 scanf ("%f", &km);
 
 printf ("Valor em metros: %.fm", km * 1000);

@@ -6,12 +6,12 @@ setlocale (LC_ALL, "portuguese");
 
 float metros;
 
-printf ("Converter metros para centímetros\n\n");
+printf ("Converter metros para centÃ­metros\n\n");
 
 printf ("Insira a medida em metros: ");
 scanf ("%f", &metros);
 
-printf ("Medida em centímetros: %.f cm", metros * 100);
+printf ("Medida em centÃ­metros: %.f cm", metros * 100);
 
 
 	
