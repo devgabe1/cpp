@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include <locale.h>
-#include <Math.h>
+#include <math.h>
 
 int main(){
 
