@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <string.h>
+#include <locale.h>
+#define _POSIX_C_SOURCE 200809L
 
 int main(){
+
+setlocale (LC_NUMERIC, "");
 
 char codigo_produto[5];
 int quantidade;
