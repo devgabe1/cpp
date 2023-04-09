@@ -60,6 +60,6 @@ printf("\n\nO valor total arrecadado pela Faculdade %s", faculdade);
 
 setlocale(LC_ALL, "portuguese");
 printf ("no período de um ano é R$""%'.2f", total_valor * 12);
-
+//s
 
 }
