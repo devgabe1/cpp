@@ -83,3 +83,4 @@ printf ("Dinheiro gasto R$: %.2f", valor_tijolo);
 //Tijolo 03: encurtador.com.br/gprwH
 //Tijolo 04: encurtador.com.br/foKT4
 //Tijolo 05: encurtador.com.br/foKT4
+//s
