@@ -1,12 +1,15 @@
+//Aluno: Gabriel Schultz Vasconcelos
+
+#define _POSIX_C_SOURCE 200809L // Definição para formatar os milhares com ponto.
 #include <stdio.h>
-#include <locale.h>
 #include <string.h>
+
 int main(){
 
-setlocale (LC_ALL, "portuguese");
+
 
 int quant_paredes, tipo_tijolo;
-float altura, largura, area_total, quant_tijolos, valor_tijolo, quant_variavel;
+float altura, largura, area_total, quant_tijolos, valor_tijolo, quant_variavel, area_total_final;
 
 printf ("\nCalcular o total de tijolos necessários em uma construção\n\n");
 
@@ -18,15 +21,16 @@ scanf ("%d", &quant_paredes);
 
 //Passo 02 - Cálculo da área
 for(int i = 1; i <= quant_paredes; i++) {
-    float area_total = 0;
+	area_total = 0;
     printf("\n\nMEDIDAS DA PAREDE %d:\n", i);
     printf ("Insira a largura em metros da parede %d: ", i);
     scanf ("%f", &largura);
     printf ("\nInsira a altura em metros da parede %d: ", i);
     scanf ("%f", &altura);
 
-    area_total += largura * altura;
-
+    area_total = largura * altura;
+	area_total_final += largura * altura;
+	
     printf ("\nEscolha o tipo do tijolo que será usado: \n");
     printf ("1 - Bloco de concreto.\n");
     printf ("2 - Bloco cerâmico (tijolo baiano) em pé.\n");
@@ -65,22 +69,26 @@ for(int i = 1; i <= quant_paredes; i++) {
             quant_tijolos += area_total * 184;
             quant_variavel = area_total * 184;
             valor_tijolo += quant_variavel * 0.79 * 1.1;
-            break;
+            quant_variavel = 0;
+			break;
         default:
+        	while (tipo_tijolo > 5 || tipo_tijolo <= 0){
             printf("Insira um código válido:");
-            scanf ("%d", tipo_tijolo);
+            scanf ("%d", &tipo_tijolo);
+        }
     }
 }
 quant_tijolos = quant_tijolos * 1.1; //Adicionando os 10% de desperdício na quantidade total de tijolos.
-printf ("Área a ser construída: %.2fm²", area_total);
-printf ("\nQuantidade de tijolos que serão usados: %.1f", quant_tijolos);
-printf ("Dinheiro gasto R$: %.2f", valor_tijolo);
+
+//Apresentação dos valores finais.
+printf ("\n\nÁrea a ser construída: %'.2f m²", area_total_final);
+printf ("\nQuantidade de tijolos que serão usados: %'.2f", quant_tijolos);
+printf ("\nDinheiro gasto R$: %'.2f", valor_tijolo);
 
 }
-//Links de base para valores:
+//Referências usadas de base para valores:
 //Tijolo 01: encurtador.com.br/uAU58
 //Tijolo 02: encurtador.com.br/gprwH
 //Tijolo 03: encurtador.com.br/gprwH
 //Tijolo 04: encurtador.com.br/foKT4
 //Tijolo 05: encurtador.com.br/foKT4
-//s
