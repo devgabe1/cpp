@@ -1,1 +1,8 @@
 .vscode
+src/atividades_avaliativas/output/**/*
+src/atividades_chatgpt/output/**/*
+src/lista_de_exercicios/lista_de_exercicios_01/output/**/*
+src/lista_de_exercicios/lista_de_exercicios_02/output/**/*
+src/lista_de_exercicios/lista_de_exercicios_03/output/**/*
+src/lista_de_exercicios/lista_de_exercicios_04/output/**/*
+src/lista_de_exercicios/lista_de_exercicios_05/output/**/*
