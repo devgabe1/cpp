@@ -26,8 +26,11 @@ Todos os programas em linguagem C usam funções das bibliotecas padrão da ling
 - ## **locale.h**  
     - Esta biblicoteca é usada para manipular configurações de localização, como idioma, formatação de números, moeda e data. Segue função da biblioteca locale para aceitar a lingua portuguesa com acentos:
 
-          setlocale(LC_ALL,"portuguese");
-          setlocale(LC_NUMERIC,"portuguese"); <br>
+```c
+setlocale(LC_ALL,"portuguese");
+setlocale(LC_NUMERIC,"portuguese"); <br>
+```
+
 ##   Site com todas as bibliotecas e suas funções:  [Bibliotecas](https://www.tutorialspoint.com/c_standard_library/index.htm)
 
 ---
